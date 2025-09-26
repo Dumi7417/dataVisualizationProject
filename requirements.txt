@@ -1,0 +1,16 @@
+# Core data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database connection (PostgreSQL + SQLAlchemy)
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.7
+
+# Visualization & dashboard
+apache-superset>=4.0.0
+
+# Kaggle dataset download
+kaggle>=1.6.0
+
+# (Optional, for parsing location/country names)
+pycountry>=24.6.1
