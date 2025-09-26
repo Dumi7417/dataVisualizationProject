@@ -9,8 +9,16 @@ This project uses the **Spotify Artist Metadata Top 10k** dataset from Kaggle.
 The main goal is to analyze artists and genres, identify popularity trends, and explore connections between them.  
 The project will be developed throughout the trimester, with new tasks expanding the analysis and visualizations step by step.  
 
+Dataset: [Spotify Artist Metadata Top 10k (Kaggle)](https://www.kaggle.com/datasets/jackharding/spotify-artist-metadata-top-10k)
+
+## Tools and Technologies
+- Python (pandas, SQLAlchemy)
+- PostgreSQL (database)
+- SQL (queries and schema design)
+- Apache Superset (visualization)
+
 ## Example Analytics
-*(a sample visualization will be added later)*  
+*(Screenshot from Apache Superset dashboard will be added after data is loaded and queries are executed)*  
 
 ![screenshot](images/analytics_example.png)  
 
@@ -19,3 +27,23 @@ The project will be developed throughout the trimester, with new tasks expanding
    ```bash
    git clone https://github.com/Dumi7417/DumAnalyticsMusic.git
    cd DumAnalyticsMusic
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+3. Create the PostgreSQL database:
+   ```bash
+   createdb spotifydb
+4. Load the schema:
+   ```bash
+   psql -d spotifydb -f schema.sql
+5. Load the dataset into the database:
+   ```bash
+   python load_data.py
+6. Run analytics queries:
+   ```bash
+   python main.py
+7. (Optional) Start Apache Superset for dashboards:
+   ```bash
+   superset run -p 8088
+
+
