@@ -18,7 +18,6 @@ Dataset: [Spotify Artist Metadata Top 10k (Kaggle)](https://www.kaggle.com/datas
 - Apache Superset (visualization)
 
 ## Example Analytics
-*(Screenshot from Apache Superset dashboard will be added after data is loaded and queries are executed)*  
 
 ![screenshot](images/analytics_example.png)  
 
