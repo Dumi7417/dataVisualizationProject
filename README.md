@@ -12,7 +12,7 @@ The project will be developed throughout the trimester, with new tasks expanding
 Dataset: [Spotify Artist Metadata Top 10k (Kaggle)](https://www.kaggle.com/datasets/jackharding/spotify-artist-metadata-top-10k)
 
 ## Tools and Technologies
-- Python (pandas, SQLAlchemy)
+- Python (pandas, matplotlib, psycopg2)
 - PostgreSQL (database)
 - SQL (queries and schema design)
 - Apache Superset (visualization)
