@@ -20,7 +20,8 @@ Dataset: [Spotify Artist Metadata Top 10k (Kaggle)](https://www.kaggle.com/datas
 ## Example Analytics
 *(Screenshot from Apache Superset dashboard will be added after data is loaded and queries are executed)*  
 
-![screenshot](images/analytics_example.png)  
+![screenshot](images/analytics_example.png)  <img width="851" height="785" alt="Screenshot 2025-09-27 at 11 50 29" src="https://github.com/user-attachments/assets/b05a87ca-4072-4c4e-b0d1-ebb191499380" />
+
 
 ## How to Run the Project
 1. Clone the repository:
