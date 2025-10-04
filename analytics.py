@@ -23,9 +23,8 @@ conn = psycopg2.connect(
 def run_query(query):
     return pd.read_sql(query, conn)
 
-# -----------------------
-# 🎨 Visualization Section
-# -----------------------
+
+# Visualization Section
 
 def generate_charts():
     print("Generating charts...")
@@ -103,9 +102,9 @@ def generate_charts():
     plt.savefig("charts/scatter_age.png")
     print("Scatter plot saved: charts/scatter_age.png")
 
-# -----------------------
-# 🎛️ Interactive Plotly (Fixed Smooth Slider)
-# -----------------------
+
+# Interactive Plotly (Fixed Smooth Slider)
+
 def interactive_plot():
     df = run_query("""
         SELECT a.artist_name, a.age, c.country_name
@@ -129,7 +128,7 @@ def interactive_plot():
     })
     df = pd.concat([df, all_years], ignore_index=True)
 
-    # ✅ Force chronological order
+    # Force chronological order
     df = df.sort_values("year")
 
     # Plot
@@ -147,9 +146,9 @@ def interactive_plot():
 
 
 
-# -----------------------
-# 📊 Export to Excel
-# -----------------------
+
+#  Export to Excel
+
 def export_to_excel():
     df = run_query("SELECT * FROM artists LIMIT 100;")
 
@@ -177,9 +176,8 @@ def export_to_excel():
     wb.save("exports/spotify_report.xlsx")
     print("Excel export saved: exports/spotify_report.xlsx")
 
-# -----------------------
-# 🚀 Main
-# -----------------------
+# Main
+
 if __name__ == "__main__":
     generate_charts()
     interactive_plot()
