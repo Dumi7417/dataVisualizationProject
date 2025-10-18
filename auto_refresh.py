@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""
-auto_refresh.py
-Inserts realistic new artist records every N seconds, keeping foreign keys valid.
-Run: python3 auto_refresh.py
-Stop: Ctrl+C
-"""
 
 import psycopg2
 import random
