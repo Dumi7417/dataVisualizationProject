@@ -25,7 +25,7 @@ Dataset: [Spotify Artist Metadata Top 10k (Kaggle)](https://www.kaggle.com/datas
 # Spotify Analytics Dashboard
 
 ## Dashboard Screenshot
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/spotify-analytics-dashboard-2025-10-18T14-19-45.837Z.png)
 
 ## Dashboard PDF
 [Download PDF](spotify-analytics-dashboard-2025-10-18T14-19-45.837Z.pdf)
