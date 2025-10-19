@@ -1,0 +1,6 @@
+DB_NAME = "spotifydb"
+DB_USER = "dbuser"
+DB_PASSWORD = ""
+DB_HOST = "localhost"
+DB_PORT = "5432"
+CSV_FILE = "spotify_artists.csv"
